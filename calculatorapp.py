@@ -7,12 +7,9 @@ from io import BytesIO
 import requests 
 
 # st.title("") para TÍTULO
-titulo = ('<p style="font-family:tahoma; color:Green; font-size: 15px;'"Calculator")
-st.markdown(titulo, unsafe_allow_html=True)
+st.title ("Calculator")
 
 image = Image.open('Calculator.png') 
-
-st.markdown("""
 
 q = int(input("Quantos números serão informados?"))
 n1 = int(input("Número 1:"))
@@ -24,6 +21,6 @@ n5 = int(input("Número 5:"))
 m = (n1 + n2 + n3 + n4 + n5)/q
 
 print("Média = " + str(m))
-""")
+
 
 
