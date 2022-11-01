@@ -18,9 +18,23 @@ n3 = st.number_input("Número 3:")
 n4 = st.number_input("Número 4:")
 n5 = st.number_input("Número 5:")
 
-m = (n1 + n2 + n3 + n4 + n5)/q
 
-print("Média = " + str(m))
+
+operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Divide", "Média"])
+  
+  if operation == "Add":
+    st.write(add(a, b))
+  elif operation == "Subtract":
+    st.write(sub(a, b))
+  elif operation == "Multiply":
+    st.write(mul(a, b))
+  elif operation == "Divide":
+    st.write(div(a, b))
+   elif operation == "Média":
+    st.write m = (n1 + n2 + n3 + n4 + n5)/q
+  
+  if __name__ == '__main__':
+main()
 
 
 
