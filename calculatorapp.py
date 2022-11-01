@@ -6,7 +6,10 @@ from PIL import Image
 from io import BytesIO
 import requests 
 
-#image = Image.open('Calculator.png') 
+# st.title("") para TÍTULO
+st.title("Calculator")
+
+image = Image.open('Calculator.png') 
 
 st.markdown("""
 
