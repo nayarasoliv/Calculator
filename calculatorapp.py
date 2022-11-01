@@ -1,4 +1,4 @@
-import streamlit
+import streamlit as st
 import pandas
 import hashlib
 import statistics
@@ -8,6 +8,7 @@ import requests
 
 #image = Image.open('Calculator.png') 
 
+st.markdown("""
 
 q = int(input("Quantos números serão informados?"))
 n1 = int(input("Número 1:"))
@@ -19,3 +20,6 @@ n5 = int(input("Número 5:"))
 m = (n1 + n2 + n3 + n4 + n5)/q
 
 print("Média = " + str(m))
+""")
+
+
