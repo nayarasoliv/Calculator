@@ -6,7 +6,7 @@ from PIL import Image
 from io import BytesIO
 import requests 
 
-image = Image.open('Calculator.png') 
+#image = Image.open('Calculator.png') 
 
 
 #list of positive integer numbers
