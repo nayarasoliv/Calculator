@@ -18,9 +18,9 @@ n3 = st.number_input("Número 3:")
 n4 = st.number_input("Número 4:")
 n5 = st.number_input("Número 5:")
 
-return (n1 + n2 + n3 + n4 + n5)/q
+m = (n1 + n2 + n3 + n4 + n5)/q
 
-#print("Média = " + str(m))
+print("Média = " + str(m))
 
 
 
