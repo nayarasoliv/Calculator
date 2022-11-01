@@ -7,12 +7,12 @@ from io import BytesIO
 import requests 
 
 # st.title("") para TÍTULO
-st.title ("Calculator")
-image = Image.open('Calculator.png') 
+#st.title ("Calculator")
+#image = Image.open('Calculator.png') 
 
 def main ():
  #coletando dados
-#q = st.number_input("Quantos números serão informados?")
+q = st.number_input("Quantos números serão informados?")
 n1 = st.number_input("Número 1:")
 n2 = st.number_input("Número 2:")
 n3 = st.number_input("Número 3:")
