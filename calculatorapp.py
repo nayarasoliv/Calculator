@@ -7,7 +7,8 @@ from io import BytesIO
 import requests 
 
 # st.title("") para TÍTULO
-st.title('<p style="font-family:tahoma; color:Green; font-size: 15px;'"Calculator")
+titulo = ('<p style="font-family:tahoma; color:Green; font-size: 15px;'"Calculator")
+st.markdown(titulo, unsafe_allow_html=True)
 
 image = Image.open('Calculator.png') 
 
