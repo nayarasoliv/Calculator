@@ -6,9 +6,11 @@ from PIL import Image
 from io import BytesIO
 import requests 
 
-def main ():
 # st.title("") para TÍTULO
 st.title ("Calculator")
+
+def main ():
+
 
 image = Image.open('Calculator.png') 
 
