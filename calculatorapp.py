@@ -11,16 +11,16 @@ st.title ("Calculator")
 
 image = Image.open('Calculator.png') 
 
-q = int(input("Quantos números serão informados?"))
-n1 = int(input("Número 1:"))
-n2 = int(input("Número 2:"))
-n3 = int(input("Número 3:"))
-n4 = int(input("Número 4:"))
-n5 = int(input("Número 5:"))
+q = st.number_input("Quantos números serão informados?")
+n1 = st.number_input("Número 1:")
+n2 = st.number_input("Número 2:")
+n3 = st.number_input("Número 3:")
+n4 = st.number_input("Número 4:")
+n5 = st.number_input("Número 5:")
 
-m = (n1 + n2 + n3 + n4 + n5)/q
+return (n1 + n2 + n3 + n4 + n5)/q
 
-print("Média = " + str(m))
+#print("Média = " + str(m))
 
 
 
