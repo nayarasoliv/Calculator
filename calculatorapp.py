@@ -6,4 +6,6 @@ from io import BytesIO
 import requests 
 
 image = Image.open('Calculator.png') 
-dimensions = (width = 1920, height = 1080)
+  dimensions = image.shape
+    height = 1080 [0]
+    width = 1920 [1]
