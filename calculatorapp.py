@@ -9,11 +9,13 @@ import requests
 #image = Image.open('Calculator.png') 
 
 
-#list of positive integer numbers
-data1 = [1, 3, 4, 5, 7, 9, 2]
+q = int(input("Quantos números serão informados?"))
+n1 = int(input("Número 1:"))
+n2 = int(input("Número 2:"))
+n3 = int(input("Número 3:"))
+n4 = int(input("Número 4:"))
+n5 = int(input("Número 5:"))
 
-x = statistics.mean(data1)
+m = (n1 + n2 + n3 + n4 + n5)/q
 
-#printing the mean
-print("Mean is :", x)
- 
+print("Média = " + str(m))
