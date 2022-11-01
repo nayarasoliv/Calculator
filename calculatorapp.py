@@ -1,6 +1,6 @@
 import streamlit
 import pandas
-import hashilib 
+import hashlib 
 from PIL import Image
 from io import BytesIO
 import requests 
