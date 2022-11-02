@@ -13,7 +13,7 @@ import streamlit as st
 
 def main ():
  #coletando dados
-q = st.number_input("Quantos números serão informados?")
+#q = st.number_input("Quantos números serão informados?")
 n1 = st.number_input("Número 1:")
 n2 = st.number_input("Número 2:")
 n3 = st.number_input("Número 3:")
