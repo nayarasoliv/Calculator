@@ -1,5 +1,5 @@
 import streamlit as st
-#import pandas
+'''#import pandas
 #import hashlib
 #import statistics
 #from PIL import Image
@@ -34,7 +34,19 @@ operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Di
     st.write (add(n1 + n2 + n3 + n4 + n5) div(q))
   
   if __name__ == '__main__':
-main()
+main() '''
 
+#coletando dados
+q = int(input("Quantos números serão informados?" ))
+n1 = int(input("Número 1:" ))
+n2 = int(input("Número 2:" ))
+n3 = int(input("Número 3:" ))
+n4 = int(input("Número 4:" ))
+n5 = int(input("Número 5:" ))
 
+#calculando a média
+media = (n1 + n2 + n3 + n4 + n5)/(q)
+
+#exibindo o resultado
+print("Média= " + str(media))
 
