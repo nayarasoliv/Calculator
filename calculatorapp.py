@@ -1,11 +1,11 @@
 import streamlit as st
-import pandas
-import hashlib
-import statistics
-from PIL import Image
-from io import BytesIO
-import requests 
-import main
+#import pandas
+#import hashlib
+#import statistics
+#from PIL import Image
+#from io import BytesIO
+#import requests 
+#import main
 
 # st.title("") para TÍTULO
 #st.title ("Calculator")
