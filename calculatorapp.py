@@ -20,20 +20,20 @@ def main ():
 #n4 = st.number_input("Número 4:")
 #n5 = st.number_input("Número 5:")
 
-operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Divide", "Média"])
+#operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Divide", "Média"])
   
-  if operation == "Add":
-    st.write(add(n1, n2, n3, n4, n5))
-  elif operation == "Subtract":
-    st.write(sub(n1, n2, n3, n4, n5))
-  elif operation == "Multiply":
-    st.write(mul(n1, n2, n3, n4, n5))
-  elif operation == "Divide":
-    st.write(div(n1, n2, n3, n4, n5))
-   elif operation == "Média":
-    st.write (add(n1 + n2 + n3 + n4 + n5) div(q))
+  #if operation == "Add":
+    #st.write(add(n1, n2, n3, n4, n5))
+  #elif operation == "Subtract":
+    #st.write(sub(n1, n2, n3, n4, n5))
+ # elif operation == "Multiply":
+    #st.write(mul(n1, n2, n3, n4, n5))
+ # elif operation == "Divide":
+  #  st.write(div(n1, n2, n3, n4, n5))
+ #  elif operation == "Média":
+   # st.write (add(n1 + n2 + n3 + n4 + n5) div(q))
   
-  if __name__ == '__main__':
-main() 
+ # if __name__ == '__main__':
+#main() 
 
 
