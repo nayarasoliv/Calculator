@@ -11,7 +11,7 @@ import streamlit as st
 st.title ("Calculator")
 #image = Image.open('Calculator.png') 
 
-def main ():
+#def main ():
  #coletando dados
 #q = st.number_input("Quantos números serão informados?")
 #n1 = st.number_input("Número 1:")
@@ -35,5 +35,3 @@ def main ():
   
  # if __name__ == '__main__':
 #main() 
-
-
