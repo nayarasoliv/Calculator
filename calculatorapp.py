@@ -8,17 +8,17 @@ import streamlit as st
 #import main
 
 # st.title("") para TÍTULO
-#st.title ("Calculator")
+st.title ("Calculator")
 #image = Image.open('Calculator.png') 
 
 def main ():
  #coletando dados
 #q = st.number_input("Quantos números serão informados?")
-n1 = st.number_input("Número 1:")
-n2 = st.number_input("Número 2:")
-n3 = st.number_input("Número 3:")
-n4 = st.number_input("Número 4:")
-n5 = st.number_input("Número 5:")
+#n1 = st.number_input("Número 1:")
+#n2 = st.number_input("Número 2:")
+#n3 = st.number_input("Número 3:")
+#n4 = st.number_input("Número 4:")
+#n5 = st.number_input("Número 5:")
 
 operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Divide", "Média"])
   
