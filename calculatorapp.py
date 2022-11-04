@@ -28,7 +28,7 @@ else:
     st.write('ENTER')
 
 tamanho = len(vetor)
-for i in range(tmamnho):
+for i in range(tamanho):
     st.info(vetor[i])
 
   
