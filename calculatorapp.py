@@ -2,12 +2,11 @@ import streamlit as st
 #import pandas
 #import hashlib
 #import statistics
-from PIL import Image
+#from PIL import Image
 #from io import BytesIO
 #import requests 
 #import main
 
-image = Image.open('Monitoria.png')
 
 def add(a, b):
   return a + b
