@@ -28,7 +28,7 @@ operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Di
   elif operation == "Multiply":
     st.write(mul(n1, n2, n3, n4, n5))
   elif operation == "Divide":
-   st.write(div(n1, n2, n3, n4, n5))
-   elif operation == "Média":
+    st.write(div(n1, n2, n3, n4, n5))
+  elif operation == "Média":
     st.write (add(n1 + n2 + n3 + n4 + n5) div(q))
   
