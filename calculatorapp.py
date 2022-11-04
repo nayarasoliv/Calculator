@@ -29,7 +29,7 @@ def main():
     st.write(mul(a, b))
   elif operation == "Divide":
     st.write(div(a, b))
-    elif operation == "Media":
+  elif operation == "Media":
     st.write(div(add(a, b), 2))
   else:
     st.write("llll")
