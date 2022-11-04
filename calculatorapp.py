@@ -11,7 +11,6 @@ import streamlit as st
 st.title ("Calculator")
 #image = Image.open('Calculator.png') 
 
-def main ():
  #coletando dados
 q = st.number_input("Quantos números serão informados?")
 n1 = st.number_input("Número 1:")
@@ -33,5 +32,3 @@ operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Di
    elif operation == "Média":
     st.write (add(n1 + n2 + n3 + n4 + n5) div(q))
   
-if __name__ == '__main__':
-main() 
