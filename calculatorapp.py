@@ -30,7 +30,7 @@ def main():
   elif operation == "Divide":
     st.write(div(a, b))
     elif operation == "Media":
-    st.write(div(add(a, b), 2.))
+    st.write(div(add(a, b), 2))
   else:
     st.write("llll")
 if __name__ == '__main__':
