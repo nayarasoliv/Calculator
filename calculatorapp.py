@@ -22,12 +22,14 @@ def main():
   b = st.number_input("Enter another number")
   operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Divide"])
   if operation == "Add":
-  st.write(add(a, b))
+    st.write(add(a, b))
   elif operation == "Subtract":
-  st.write(sub(a, b))
+    st.write(sub(a, b))
   elif operation == "Multiply":
-  st.write(mul(a, b))
+    st.write(mul(a, b))
   elif operation == "Divide":
-  st.write(div(a, b))
+    st.write(div(a, b))
+  else:
+    st.write("llll")
 if __name__ == '__main__':
 main()
