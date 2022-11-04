@@ -21,14 +21,15 @@ n5 = st.number_input("Número 5:")
 
 operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Divide", "Média"])
   
-  if operation == "Add":
+if operation == "Add":
     st.write(add(n1, n2, n3, n4, n5))
-  elif operation == "Subtract":
+elif operation == "Subtract":
     st.write(sub(n1, n2, n3, n4, n5))
-  elif operation == "Multiply":
+elif operation == "Multiply":
     st.write(mul(n1, n2, n3, n4, n5))
-  elif operation == "Divide":
+elif operation == "Divide":
     st.write(div(n1, n2, n3, n4, n5))
-  elif operation == "Média":
+elif operation == "Média":
     st.write (add(n1 + n2 + n3 + n4 + n5) div(q))
-  
+else:
+    st.write ("Selecione")
