@@ -10,6 +10,8 @@ import streamlit as st
 # st.title("") para TÍTULO
 st.title ("Calculator")
 #image = Image.open('Calculator.png') 
+i=0
+vetor = []
 
  #coletando dados
 q = st.number_input("Quantos números serão informados?")
@@ -20,7 +22,15 @@ n4 = st.number_input("Número 4:")
 n5 = st.number_input("Número 5:")
 
 operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Média"])
-  
+
+if st.button('ENTER'):
+    vetor[i] = n1
+    i++
+    st.info(vetor[i])
+else:
+    st.write('ENTER')
+
+
 if operation == "Add":
     st.write(str(n1 + n2 + n3 + n4 + n5))
 elif operation == "Subtract":
