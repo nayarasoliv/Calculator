@@ -25,7 +25,7 @@ operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "MÃ
 
 if st.button('ENTER'):
     vetor[i] = n1
-    i++
+    i+=1
     st.info(vetor[i])
 else:
     st.write('ENTER')
