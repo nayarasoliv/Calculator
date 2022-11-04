@@ -17,20 +17,20 @@ def mul(a, b):
 def div(a, b):
   return a / b
 def main():
-  st.title("Simple Calculator")
-  st.write("This is a simple calculator app")
-  a = st.number_input("Enter a number")
-  b = st.number_input("Enter another number")
-  operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Divide","Media"])
-  if operation == "Add":
+  st.title("Calculator")
+  st.write("Calculadora simples")
+  a = st.number_input("Digite um número")
+  b = st.number_input("Digite outro número")
+  operation = st.selectbox("Selecione uma operação", ["Adição", "Subtração", "Mutiplicação", "Divisão","Média"])
+  if operation == "Adição":
     st.write(add(a, b))
-  elif operation == "Subtract":
+  elif operation == "Subtração":
     st.write(sub(a, b))
-  elif operation == "Multiply":
+  elif operation == "Mutiplicação":
     st.write(mul(a, b))
-  elif operation == "Divide":
+  elif operation == "Divisão":
     st.write(div(a, b))
-  elif operation == "Media":
+  elif operation == "Média":
     st.write(div(add(a, b), 2))
   else:
     st.write("llll")
