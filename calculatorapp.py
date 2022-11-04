@@ -20,7 +20,7 @@ def main():
   st.write("This is a simple calculator app")
   a = st.number_input("Enter a number")
   b = st.number_input("Enter another number")
-  operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Divide"])
+  operation = st.selectbox("Select Operation", ["Add", "Subtract", "Multiply", "Divide","Media"])
   if operation == "Add":
     st.write(add(a, b))
   elif operation == "Subtract":
@@ -29,6 +29,8 @@ def main():
     st.write(mul(a, b))
   elif operation == "Divide":
     st.write(div(a, b))
+    elif operation == "Media":
+    st.write(div(add(a, b), 2.))
   else:
     st.write("llll")
 if __name__ == '__main__':
