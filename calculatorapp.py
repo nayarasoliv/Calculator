@@ -7,6 +7,8 @@ import streamlit as st
 #import requests 
 #import main
 
+image = Image.open('Monitoria.png')
+
 def add(a, b):
   return a + b
 def sub(a, b):
