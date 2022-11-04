@@ -30,6 +30,6 @@ elif operation == "Multiply":
 elif operation == "Divide":
     st.write(div(n1, n2, n3, n4, n5))
 elif operation == "Média":
-    st.write (add(n1 + n2 + n3 + n4 + n5) div(q))
+    st.write (add(n1 + n2 + n3 + n4 + n5) /(q))
 else:
     st.write ("Selecione")
