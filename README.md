@@ -1,2 +1,2 @@
-# Media
-Site em desenvolvimento para calcular a média de notas.
+#### Calculator
+Site de calculadora para comparar low-code e code.
